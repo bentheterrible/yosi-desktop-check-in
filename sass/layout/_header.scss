@@ -2,52 +2,24 @@
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
 
-body {
-  height: 400vh;
-}
 
-$header-width: 50em;
+$icon-width: 8em;
+$icon-padding-left: 2em;
+
 .header {
-  position: fixed;
-  margin-top: 50px;
-  // background: #eee;
-  width: $header-width;
-  height: 150px;
-  box-shadow: 0px 3px 3px -2px rgba(0,0,0,0.47);
-  left: calc(50% - #{$header-width}/2);
-
-
+  background: $blue;
   .header-container {
-    position: relative;
-    // outline: solid red 3px;
-    height: 100%;
-    max-width: 80em;
-    margin: 0 auto;
-
-    $icon-size: 100px;
-    .icon {
-      position: absolute;
-      // outline: pink solid 3px;
-      height: auto;
-      width: $icon-size;
-      left: calc(50% - #{$icon-size}/2);
-      // top: 30px;
-      img {
-      }
+    display: inline-flex;
+    .header-icon {
+      width: $icon-width;
+      padding-left: $icon-padding-left;
+      filter: invert(90%);
     }
-
-    $title-width: 50em;
-    .title {
-      position: absolute;
-      // outline: green solid 3px;
-      width: $title-width;
-      left: calc(50% - #{$title-width}/2);
-      bottom: 10px;
-      h1 {
-        text-align: center;
-        color: $heading-color;
-        font-family: $font;
-      }
+    .header-title {
+      width: calc(100vw - #{$icon-width});
+      padding-top: 1.5em;
+      padding-left: 2em;
+      color: darken(white, 10%);
     }
   }
 }
