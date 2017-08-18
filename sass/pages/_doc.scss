@@ -4,29 +4,42 @@
 
 
 .doc-list-container {
-  // background: aliceblue;
-  max-width: 50em;
+  max-width: 30em;
   margin: auto;
   margin-top: 50px;
   margin-bottom: 90px;
 
   .doc-list-wrap {
-    margin: 0 10em;
-    // outline: green solid;
     .doc-link {
       text-decoration: none;
       color: $body-color;
 
       .doc {
-        // outline: yellow solid;
         padding: 30px 0;
+        border-radius: 2px;
+        border: #999 solid 1px;
+        background: white;
+        margin-bottom: 5px;
+        transition: .2s all;
+        -webkit-box-shadow: 10px 10px 5px -9px rgba(238, 238, 238, 1);
+        -moz-box-shadow: 10px 10px 5px -9px rgba(238, 238, 238, 1);
+        box-shadow: 10px 10px 5px -9px rgba(238, 238, 238, 1);
+
         &:hover {
-          background: gainsboro;
+          -webkit-box-shadow: 0px 0px 5px 0px rgba(119,119,119,1);
+          -moz-box-shadow: 0px 0px 5px 0px rgba(119,119,119,1);
+          box-shadow: 0px 0px 5px 0px rgba(119,119,119,1);
+          transition: 0s all;
         }
         h3 {
           text-align: center;
           text-decoration: none;
         }
+      }
+    }
+    #idk-doc {
+      .doc {
+        background: yellow;
       }
     }
   }
