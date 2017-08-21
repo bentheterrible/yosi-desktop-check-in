@@ -20,13 +20,15 @@
 @import
   'components/button',
   'components/box',
-  'components/input-fields';
+  'components/input-fields',
+  'components/form';
 
 // 6. Page-specific styles
 @import
   'pages/login',
   'pages/doc',
-  'pages/basic-info';
+  'pages/basic-info',
+  'pages/insurance';
 
 // 7. Themes
 @import
