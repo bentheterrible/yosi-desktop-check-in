@@ -41,6 +41,68 @@ body {
     transition: all 0s;
     cursor: pointer; }
 
+.box {
+  text-align: center;
+  margin: auto;
+  padding: 30px 0;
+  border-radius: 2px;
+  border: #999 solid 1px;
+  background: white;
+  margin-bottom: 5px;
+  transition: .2s all;
+  -webkit-box-shadow: 10px 10px 5px -9px #eeeeee;
+  -moz-box-shadow: 10px 10px 5px -9px #eeeeee;
+  box-shadow: 10px 10px 5px -9px #eeeeee; }
+  .box:hover {
+    -webkit-box-shadow: 0px 0px 5px 0px #777777;
+    -moz-box-shadow: 0px 0px 5px 0px #777777;
+    box-shadow: 0px 0px 5px 0px #777777;
+    transition: 0s all; }
+
+/*
+ *
+ *  Standardization for input fieids
+ */
+.txt {
+  height: 30px;
+  width: 330px;
+  padding-left: 10px;
+  border-radius: 2px;
+  border: solid #333 1px; }
+
+.login-box {
+  text-align: center;
+  width: 40em;
+  margin: auto;
+  padding: 30px 0;
+  border-radius: 2px;
+  border: #999 solid 1px;
+  background: white;
+  margin-bottom: 5px;
+  transition: .2s all;
+  -webkit-box-shadow: 10px 10px 5px -9px #eeeeee;
+  -moz-box-shadow: 10px 10px 5px -9px #eeeeee;
+  box-shadow: 10px 10px 5px -9px #eeeeee; }
+  .login-box:hover {
+    -webkit-box-shadow: 0px 0px 5px 0px #777777;
+    -moz-box-shadow: 0px 0px 5px 0px #777777;
+    box-shadow: 0px 0px 5px 0px #777777;
+    transition: 0s all; }
+  .login-box p {
+    font-size: 20px;
+    margin-top: 40px; }
+  .login-box div {
+    margin-top: 10px;
+    font-weight: 600; }
+  .login-box #username {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 30px;
+    width: 330px;
+    padding-left: 10px; }
+  .login-box #proceed_login {
+    margin-bottom: 50px; }
+
 .doc-list-container {
   max-width: 30em;
   margin: auto;
@@ -81,37 +143,19 @@ body {
   .doc-list-container .doc-list-wrap #idk-doc .doc {
     background: yellow; }
 
-.login-box {
+.q-box {
+  margin: 0 auto;
   text-align: center;
   width: 40em;
-  margin: auto;
-  padding: 30px 0;
-  border-radius: 2px;
-  border: #999 solid 1px;
-  background: white;
-  margin-bottom: 5px;
-  transition: .2s all;
-  -webkit-box-shadow: 10px 10px 5px -9px #eeeeee;
-  -moz-box-shadow: 10px 10px 5px -9px #eeeeee;
-  box-shadow: 10px 10px 5px -9px #eeeeee; }
-  .login-box:hover {
-    -webkit-box-shadow: 0px 0px 5px 0px #777777;
-    -moz-box-shadow: 0px 0px 5px 0px #777777;
-    box-shadow: 0px 0px 5px 0px #777777;
-    transition: 0s all; }
-  .login-box p {
-    font-size: 20px;
-    margin-top: 40px; }
-  .login-box div {
-    margin-top: 10px;
-    font-weight: 600; }
-  .login-box #username {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    height: 30px;
-    width: 330px;
-    padding-left: 10px; }
-  .login-box #proceed_login {
-    margin-bottom: 50px; }
+  margin-bottom: 150px; }
+  .q-box .inner-q-box {
+    width: 22em;
+    margin: auto; }
+    .q-box .inner-q-box .form-group {
+      margin-bottom: 20px; }
+      .q-box .inner-q-box .form-group .txt-field-name {
+        text-align: left;
+        margin-left: 15px;
+        margin-bottom: 5px; }
 
 /*# sourceMappingURL=main.css.map */

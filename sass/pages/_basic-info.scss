@@ -1,0 +1,23 @@
+
+.q-box {
+  margin: 0 auto;
+  text-align: center;
+  width: 40em;
+  margin-bottom: 150px;
+  .inner-q-box {
+    width: 22em;
+    margin: auto;
+    // outline: salmon solid;
+
+    .form-group {
+      margin-bottom: 20px;
+
+      .txt-field-name {
+        text-align: left;
+        margin-left: 15px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+}

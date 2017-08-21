@@ -16,16 +16,17 @@
   'layout/header',
   'layout/footer';
 
-
 // 5. Components
 @import
-  'components/button';
+  'components/button',
+  'components/box',
+  'components/input-fields';
 
 // 6. Page-specific styles
 @import
+  'pages/login',
   'pages/doc',
-  'pages/login';
-
+  'pages/basic-info';
 
 // 7. Themes
 @import
