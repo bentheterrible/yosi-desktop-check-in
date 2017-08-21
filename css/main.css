@@ -19,7 +19,6 @@ body {
   text-align: center; }
   .header-title h1 {
     color: #333;
-    margin-top: 1em;
     margin-bottom: 2em; }
 
 .footer {
@@ -29,11 +28,11 @@ body {
 
 .btn {
   border-radius: 2px;
-  width: 135px;
-  line-height: 35px;
+  width: 22em;
+  line-height: 55px;
   background: white;
   border: solid 1px #666;
-  font-size: 15px;
+  font-size: 29px;
   color: #666;
   transition: all .2s; }
   .btn:hover {
@@ -41,6 +40,10 @@ body {
     color: #333;
     transition: all 0s;
     cursor: pointer; }
+
+.next {
+  margin-top: 2em;
+  text-align: center; }
 
 .box {
   text-align: center;

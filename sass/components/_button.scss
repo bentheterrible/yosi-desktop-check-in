@@ -4,12 +4,12 @@
 
 .btn {
   border-radius: 2px;
-  width: 135px;
-  line-height: $btn-height;
+  width: 22em;
+  line-height: 55px;
   background: white;
   border: solid 1px #666;
-  font-size: 15px;
-  color: $body-color;
+  font-size: 29px;
+  color: #666;
   transition: all .2s;
 
   &:hover {
@@ -18,4 +18,9 @@
     transition: all 0s;
     cursor: pointer;
   }
+}
+
+.next {
+  margin-top: 2em;
+  text-align: center;
 }
