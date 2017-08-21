@@ -1,0 +1,43 @@
+
+
+.login-box {
+  text-align: center;
+  width: 40em;
+  margin: auto;
+  padding: 30px 0;
+  border-radius: 2px;
+  border: #999 solid 1px;
+  background: white;
+  margin-bottom: 5px;
+  transition: .2s all;
+  -webkit-box-shadow: 10px 10px 5px -9px rgba(238, 238, 238, 1);
+  -moz-box-shadow: 10px 10px 5px -9px rgba(238, 238, 238, 1);
+  box-shadow: 10px 10px 5px -9px rgba(238, 238, 238, 1);
+
+  &:hover {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(119,119,119,1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(119,119,119,1);
+    box-shadow: 0px 0px 5px 0px rgba(119,119,119,1);
+    transition: 0s all
+  }
+
+  p {
+    font-size: 20px;
+    margin-top: 40px;
+  }
+  div {
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  #username {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 30px;
+    width: 330px;
+    padding-left: 10px;
+  }
+
+  #proceed_login {
+    margin-bottom: 50px;
+  }
+}

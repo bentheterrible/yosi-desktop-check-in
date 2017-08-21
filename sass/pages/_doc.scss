@@ -9,10 +9,12 @@
   margin-top: 50px;
   margin-bottom: 90px;
 
+
   .doc-list-wrap {
     .doc-link {
       text-decoration: none;
       color: $body-color;
+      &:hover {color: $heading-color;}
 
       .doc {
         padding: 30px 0;
@@ -30,8 +32,22 @@
           -moz-box-shadow: 0px 0px 5px 0px rgba(119,119,119,1);
           box-shadow: 0px 0px 5px 0px rgba(119,119,119,1);
           transition: 0s all;
+          h3::after {
+            display: block;
+          }
         }
+
+        h3::after {
+          display: none;
+          // content: ">";
+          position: absolute;
+          right: 30px;
+          font-size: 1.2em;
+          bottom: -0.1em;
+        }
+
         h3 {
+          position: relative;
           text-align: center;
           text-decoration: none;
         }
