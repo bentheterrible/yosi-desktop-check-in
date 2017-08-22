@@ -81,7 +81,8 @@ body {
 .q-box {
   margin: 0 auto;
   text-align: center;
-  width: 40em; }
+  width: 40em;
+  padding-bottom: 30px; }
   .q-box .inner-q-box {
     width: 22em;
     margin: auto; }
