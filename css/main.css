@@ -7,19 +7,22 @@ body {
   background: #f1f1f1; }
 
 .header {
-  background: #f1f1f1;
+  background: #f7f7f7;
   text-align: center;
   margin: auto; }
   .header .header-icon {
-    height: 80px;
+    height: 40px;
     margin-top: 1.2em;
-    margin-bottom: 2em; }
+    margin-bottom: .2em; }
 
 .header-title {
-  text-align: center; }
+  text-align: center;
+  background: #f7f7f7; }
   .header-title h1 {
     color: #333;
-    margin-bottom: 2em; }
+    margin-bottom: 2em;
+    font-size: 23px;
+    padding-bottom: 20px; }
 
 .footer {
   margin-top: 5em;
@@ -170,7 +173,12 @@ body {
   margin: auto;
   margin-bottom: 50px; }
   .i-box h2 {
-    margin-bottom: 5px;
-    margin-left: 10px; }
+    background: #666;
+    padding: 0px;
+    padding-top: 5px;
+    padding-left: 11px;
+    padding-bottom: 5px;
+    color: white;
+    width: 15em; }
 
 /*# sourceMappingURL=main.css.map */

@@ -7,21 +7,24 @@ $icon-width: 8em;
 $icon-padding-left: 2em;
 
 .header {
-  background: #f1f1f1;
+  background: #f7f7f7;
   text-align: center;
   margin: auto;
   .header-icon {
     // filter: invert(90%);
-    height: 80px;
+    height: 40px;
     margin-top: 1.2em;
-    margin-bottom: 2em;
+    margin-bottom: .2em;
   }
 }
 
 .header-title {
   text-align: center;
+  background: #f7f7f7;
   h1 {
     color: $heading-color;
     margin-bottom: 2em;
+    font-size: 23px;
+    padding-bottom: 20px;
   }
 }

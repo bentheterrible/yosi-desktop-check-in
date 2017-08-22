@@ -1,9 +1,14 @@
 .i-box {
   width: 40em;
   margin: auto;
-  margin-bottom: 50px; 
+  margin-bottom: 50px;
   h2 {
-    margin-bottom: 5px;
-    margin-left: 10px;
+    background: #666;
+    padding: 0px;
+    padding-top: 5px;
+    padding-left: 11px;
+    padding-bottom: 5px;
+    color: white;
+    width: 15em;
   }
 }
